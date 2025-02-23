@@ -1,0 +1,172 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.15 Chrome/132.0.6834.196 Electron/34.2.0 Safari/537.36" version="26.0.15">
+  <diagram name="Страница — 1" id="y0v4x9pf-npiqwQYkVzs">
+    <mxGraphModel dx="1366" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="urjWlyCOWcAGrPZSQun4-11" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="54" y="75" width="320" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="urjWlyCOWcAGrPZSQun4-2" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="urjWlyCOWcAGrPZSQun4-11">
+          <mxGeometry width="320" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="urjWlyCOWcAGrPZSQun4-3" value="&lt;span class=&quot;hljs-bullet&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;AuthView&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;(Activity/Fragment/Composable)&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;с&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;формой&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;логина&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;и&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;пароля.&lt;/span&gt;&lt;br/&gt;  &lt;span class=&quot;hljs-bullet&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;AuthViewModel,&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;который&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;принимает&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;ввод&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;пользователя&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;и&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;вызывает&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;use&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;case.&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;size=0.03125;align=left;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="urjWlyCOWcAGrPZSQun4-11">
+          <mxGeometry y="40" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="urjWlyCOWcAGrPZSQun4-4" value="&lt;span class=&quot;hljs-bullet&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;hljs-attr&quot;&gt;AuthUseCase:&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;реализует&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;бизнес-логику&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;авторизации.&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;size=0.03125;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="urjWlyCOWcAGrPZSQun4-11">
+          <mxGeometry y="120" width="320" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="urjWlyCOWcAGrPZSQun4-5" value="&lt;span class=&quot;hljs-bullet&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;hljs-attr&quot;&gt;AuthRepositoryImpl:&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;получает&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;данные&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;(локально/удаленно)&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;для&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;проверки&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;пользователя.&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;size=0.03125;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" vertex="1" parent="urjWlyCOWcAGrPZSQun4-11">
+          <mxGeometry y="230" width="320" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="urjWlyCOWcAGrPZSQun4-6" value="[&lt;span class=&quot;hljs-string&quot;&gt;Экран&lt;/span&gt;&amp;nbsp;&lt;span class=&quot;hljs-string&quot;&gt;Авторизации&lt;/span&gt;]&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="urjWlyCOWcAGrPZSQun4-11">
+          <mxGeometry width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="urjWlyCOWcAGrPZSQun4-8" value="&lt;span class=&quot;hljs-attr&quot;&gt;Data:&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="urjWlyCOWcAGrPZSQun4-11">
+          <mxGeometry y="210" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="urjWlyCOWcAGrPZSQun4-9" value="&lt;span class=&quot;hljs-attr&quot;&gt;Domain:&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="urjWlyCOWcAGrPZSQun4-11">
+          <mxGeometry y="100" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="urjWlyCOWcAGrPZSQun4-10" value="&lt;span class=&quot;hljs-attr&quot;&gt;Presentation:&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="urjWlyCOWcAGrPZSQun4-11">
+          <mxGeometry y="20" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="urjWlyCOWcAGrPZSQun4-12" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="424" y="75" width="320" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="urjWlyCOWcAGrPZSQun4-13" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="urjWlyCOWcAGrPZSQun4-12">
+          <mxGeometry width="320" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="urjWlyCOWcAGrPZSQun4-14" value="&lt;span class=&quot;hljs-bullet&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;hljs-attr&quot;&gt;CatalogView:&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;экран&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;со&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;списком&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;сущностей,&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;отображающих&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;изображения&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;(RecyclerView/Composable&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;List).&lt;/span&gt;&lt;br/&gt;  &lt;span class=&quot;hljs-bullet&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;CatalogViewModel,&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;который&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;запрашивает&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;список&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;через&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;use&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;и&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;передаёт&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;данные&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;для&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;отрисовки.&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;size=0.03125;align=left;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="urjWlyCOWcAGrPZSQun4-12">
+          <mxGeometry y="40" width="320" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="urjWlyCOWcAGrPZSQun4-15" value="&lt;span class=&quot;hljs-bullet&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;hljs-attr&quot;&gt;GetEntitiesUseCase:&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;получение&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;списка&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;сущностей&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;(например,&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;туров,&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;товаров&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;и&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;пр.)&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;с&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;применением&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;фильтров.&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;size=0.03125;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="urjWlyCOWcAGrPZSQun4-12">
+          <mxGeometry y="160" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="urjWlyCOWcAGrPZSQun4-16" value="&lt;span class=&quot;hljs-bullet&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;hljs-attr&quot;&gt;EntityRepositoryImpl:&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;обращается&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;к&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;локальному&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;и/или&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;удалённому&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;источнику,&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;мапит&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;DTO&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;в&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;сущности.&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;size=0.03125;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" vertex="1" parent="urjWlyCOWcAGrPZSQun4-12">
+          <mxGeometry y="250" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="urjWlyCOWcAGrPZSQun4-17" value="[&lt;span class=&quot;hljs-string&quot;&gt;Экран&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;Каталога&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;сущностей&lt;/span&gt;]&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="urjWlyCOWcAGrPZSQun4-12">
+          <mxGeometry width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="urjWlyCOWcAGrPZSQun4-18" value="&lt;span class=&quot;hljs-attr&quot;&gt;Data:&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="urjWlyCOWcAGrPZSQun4-12">
+          <mxGeometry y="230" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="urjWlyCOWcAGrPZSQun4-19" value="&lt;span class=&quot;hljs-attr&quot;&gt;Domain:&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="urjWlyCOWcAGrPZSQun4-12">
+          <mxGeometry y="140" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="urjWlyCOWcAGrPZSQun4-20" value="&lt;span class=&quot;hljs-attr&quot;&gt;Presentation:&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="urjWlyCOWcAGrPZSQun4-12">
+          <mxGeometry y="20" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="urjWlyCOWcAGrPZSQun4-21" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="794" y="75" width="320" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="urjWlyCOWcAGrPZSQun4-22" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="urjWlyCOWcAGrPZSQun4-21">
+          <mxGeometry width="320" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="urjWlyCOWcAGrPZSQun4-23" value="&lt;span class=&quot;hljs-bullet&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;hljs-attr&quot;&gt;DetailView:&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;экран&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;с&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;подробной&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;информацией&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;выбранной&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;сущности.&lt;/span&gt;&lt;br/&gt;  &lt;span class=&quot;hljs-bullet&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;DetailViewModel,&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;запрашивающий&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;данные&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;детали&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;через&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;use&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;case.&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;size=0.03125;align=left;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="urjWlyCOWcAGrPZSQun4-21">
+          <mxGeometry y="40" width="320" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="urjWlyCOWcAGrPZSQun4-24" value="&lt;span class=&quot;hljs-bullet&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;hljs-attr&quot;&gt;GetEntityDetailUseCase:&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;логика&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;получения&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;детальной&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;информации&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;по&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;идентификатору.&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;size=0.03125;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="urjWlyCOWcAGrPZSQun4-21">
+          <mxGeometry y="160" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="urjWlyCOWcAGrPZSQun4-25" value="&lt;span class=&quot;hljs-bullet&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;hljs-attr&quot;&gt;EntityRepositoryImpl:&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;обеспечивает&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;доступ&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;к&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;детальным&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;данным,&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;преобразует&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;DTO&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;в&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;Entity.&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;size=0.03125;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" vertex="1" parent="urjWlyCOWcAGrPZSQun4-21">
+          <mxGeometry y="250" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="urjWlyCOWcAGrPZSQun4-26" value="[&lt;span class=&quot;hljs-string&quot;&gt;Экран&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;Детали&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;сущности&lt;/span&gt;]&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="urjWlyCOWcAGrPZSQun4-21">
+          <mxGeometry width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="urjWlyCOWcAGrPZSQun4-27" value="&lt;span class=&quot;hljs-attr&quot;&gt;Data:&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="urjWlyCOWcAGrPZSQun4-21">
+          <mxGeometry y="230" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="urjWlyCOWcAGrPZSQun4-28" value="&lt;span class=&quot;hljs-attr&quot;&gt;Domain:&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="urjWlyCOWcAGrPZSQun4-21">
+          <mxGeometry y="140" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="urjWlyCOWcAGrPZSQun4-29" value="&lt;span class=&quot;hljs-attr&quot;&gt;Presentation:&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="urjWlyCOWcAGrPZSQun4-21">
+          <mxGeometry y="20" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="urjWlyCOWcAGrPZSQun4-48" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="424" y="432" width="320" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="urjWlyCOWcAGrPZSQun4-49" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="urjWlyCOWcAGrPZSQun4-48">
+          <mxGeometry width="320" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="urjWlyCOWcAGrPZSQun4-50" value="&lt;span class=&quot;hljs-bullet&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;hljs-attr&quot;&gt;ProfileView:&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;отображение&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;и&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;редактирование&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;профиля&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;пользователя.&lt;/span&gt;&lt;br/&gt;  &lt;span class=&quot;hljs-bullet&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;CommentView&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;(в&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;составе&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;DetailView):&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;UI&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;для&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;добавления/просмотра&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;комментариев.&lt;/span&gt;&lt;br/&gt;  &lt;span class=&quot;hljs-bullet&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;Соответствующие&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;ViewModel&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;(ProfileViewModel,&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;CommentViewModel).&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;size=0.03125;align=left;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="urjWlyCOWcAGrPZSQun4-48">
+          <mxGeometry y="40" width="320" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="urjWlyCOWcAGrPZSQun4-51" value="&lt;span class=&quot;hljs-bullet&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;hljs-attr&quot;&gt;ProfileUseCase:&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;логика&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;получения&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;и&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;обновления&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;профиля.&lt;/span&gt;&lt;br/&gt;  &lt;span class=&quot;hljs-bullet&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;hljs-attr&quot;&gt;AddCommentUseCase:&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;логика&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;добавления&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;комментариев.&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;size=0.03125;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="urjWlyCOWcAGrPZSQun4-48">
+          <mxGeometry y="160" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="urjWlyCOWcAGrPZSQun4-52" value="&lt;span class=&quot;hljs-bullet&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;UserRepositoryImpl&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;и&lt;/span&gt; &lt;span class=&quot;hljs-attr&quot;&gt;CommentRepositoryImpl:&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;управление&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;данными&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;профиля&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;и&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;комментариев.&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;size=0.03125;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" vertex="1" parent="urjWlyCOWcAGrPZSQun4-48">
+          <mxGeometry y="250" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="urjWlyCOWcAGrPZSQun4-53" value="[&lt;span class=&quot;hljs-string&quot;&gt;Экран&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;Профиля&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;и&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;комментариев&lt;/span&gt;]&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="urjWlyCOWcAGrPZSQun4-48">
+          <mxGeometry width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="urjWlyCOWcAGrPZSQun4-54" value="&lt;span class=&quot;hljs-attr&quot;&gt;Data:&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="urjWlyCOWcAGrPZSQun4-48">
+          <mxGeometry y="230" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="urjWlyCOWcAGrPZSQun4-55" value="&lt;span class=&quot;hljs-attr&quot;&gt;Domain:&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="urjWlyCOWcAGrPZSQun4-48">
+          <mxGeometry y="140" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="urjWlyCOWcAGrPZSQun4-56" value="&lt;span class=&quot;hljs-attr&quot;&gt;Presentation:&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="urjWlyCOWcAGrPZSQun4-48">
+          <mxGeometry y="20" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="urjWlyCOWcAGrPZSQun4-57" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="54" y="432" width="320" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="urjWlyCOWcAGrPZSQun4-58" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="urjWlyCOWcAGrPZSQun4-57">
+          <mxGeometry width="320" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="urjWlyCOWcAGrPZSQun4-59" value="&lt;span class=&quot;hljs-bullet&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;hljs-attr&quot;&gt;ExternalDataView:&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;UI-компонент,&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;отображающий&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;данные&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;(например,&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;курс&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;валют,&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;погоду)&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;из&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;внешнего&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;сервиса.&lt;/span&gt;&lt;br/&gt;  &lt;span class=&quot;hljs-bullet&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;ExternalDataViewModel,&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;который&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;инициирует&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;получение&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;данных.&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;size=0.03125;align=left;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="urjWlyCOWcAGrPZSQun4-57">
+          <mxGeometry y="40" width="320" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="urjWlyCOWcAGrPZSQun4-60" value="&lt;span class=&quot;hljs-bullet&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;hljs-attr&quot;&gt;FetchExternalDataUseCase:&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;бизнес-логика&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;для&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;вызова&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;внешнего&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;API&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;и&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;обработки&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;JSON-ответа.&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;size=0.03125;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="urjWlyCOWcAGrPZSQun4-57">
+          <mxGeometry y="160" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="urjWlyCOWcAGrPZSQun4-61" value="&lt;span class=&quot;hljs-bullet&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;hljs-attr&quot;&gt;ExternalDataSource:&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;реализация&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;доступа&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;к&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;REST&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;API&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;(например,&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;через&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;Retrofit),&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;обработка&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;JSON.&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;size=0.03125;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" vertex="1" parent="urjWlyCOWcAGrPZSQun4-57">
+          <mxGeometry y="250" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="urjWlyCOWcAGrPZSQun4-62" value="[&lt;span class=&quot;hljs-string&quot;&gt;Экран&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;Внешних&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;данных&lt;/span&gt;]&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="urjWlyCOWcAGrPZSQun4-57">
+          <mxGeometry width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="urjWlyCOWcAGrPZSQun4-63" value="&lt;span class=&quot;hljs-attr&quot;&gt;Data:&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="urjWlyCOWcAGrPZSQun4-57">
+          <mxGeometry y="230" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="urjWlyCOWcAGrPZSQun4-64" value="&lt;span class=&quot;hljs-attr&quot;&gt;Domain:&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="urjWlyCOWcAGrPZSQun4-57">
+          <mxGeometry y="140" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="urjWlyCOWcAGrPZSQun4-65" value="&lt;span class=&quot;hljs-attr&quot;&gt;Presentation:&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="urjWlyCOWcAGrPZSQun4-57">
+          <mxGeometry y="20" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="urjWlyCOWcAGrPZSQun4-66" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="794" y="432" width="320" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="urjWlyCOWcAGrPZSQun4-67" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="urjWlyCOWcAGrPZSQun4-66">
+          <mxGeometry width="320" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="urjWlyCOWcAGrPZSQun4-68" value="&lt;span class=&quot;hljs-bullet&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;FilterDialog&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;или&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;отдельный&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;экран&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;для&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;выбора&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;критериев&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;фильтрации&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;и&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;сортировки.&lt;/span&gt;&lt;br/&gt;  &lt;span class=&quot;hljs-bullet&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;FilterViewModel,&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;который&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;формирует&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;запросы&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;на&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;фильтрацию.&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;size=0.03125;align=left;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="urjWlyCOWcAGrPZSQun4-66">
+          <mxGeometry y="40" width="320" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="urjWlyCOWcAGrPZSQun4-69" value="&lt;span class=&quot;hljs-bullet&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;hljs-attr&quot;&gt;FilterEntitiesUseCase:&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;применение&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;фильтров&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;к&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;списку&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;сущностей.&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;size=0.03125;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="urjWlyCOWcAGrPZSQun4-66">
+          <mxGeometry y="160" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="urjWlyCOWcAGrPZSQun4-70" value="&lt;span class=&quot;hljs-bullet&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;hljs-attr&quot;&gt;EntityRepositoryImpl:&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;поддержка&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;запросов&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;с&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;фильтрами&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;(параметры&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;запроса&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;к&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;API&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;или&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;локальной&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;БД).&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;size=0.03125;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" vertex="1" parent="urjWlyCOWcAGrPZSQun4-66">
+          <mxGeometry y="250" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="urjWlyCOWcAGrPZSQun4-71" value="[&lt;span class=&quot;hljs-string&quot;&gt;Экран&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;Фильтрации&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;и&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;Сортировки&lt;/span&gt;]&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="urjWlyCOWcAGrPZSQun4-66">
+          <mxGeometry width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="urjWlyCOWcAGrPZSQun4-72" value="&lt;span class=&quot;hljs-attr&quot;&gt;Data:&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="urjWlyCOWcAGrPZSQun4-66">
+          <mxGeometry y="230" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="urjWlyCOWcAGrPZSQun4-73" value="&lt;span class=&quot;hljs-attr&quot;&gt;Domain:&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="urjWlyCOWcAGrPZSQun4-66">
+          <mxGeometry y="140" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="urjWlyCOWcAGrPZSQun4-74" value="&lt;span class=&quot;hljs-attr&quot;&gt;Presentation:&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="urjWlyCOWcAGrPZSQun4-66">
+          <mxGeometry y="20" width="320" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
