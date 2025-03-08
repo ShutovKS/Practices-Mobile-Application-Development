@@ -1,7 +1,7 @@
-package ru.mirea.shutov.Lession1.domain.usecases;
+package ru.mirea.shutov.domain.usecases;
 
-import ru.mirea.shutov.Lession1.domain.models.Movie;
-import ru.mirea.shutov.Lession1.domain.repository.MovieRepository;
+import ru.mirea.shutov.domain.data.Movie;
+import ru.mirea.shutov.domain.repository.MovieRepository;
 
 public class SaveMovieToFavoriteUseCase {
     private MovieRepository movieRepository;
