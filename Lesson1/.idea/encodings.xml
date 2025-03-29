@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with BOM under Windows, with no BOM otherwise">
+    <file url="file://$PROJECT_DIR$/buttonclicker/src/main/java/ru/mirea/shutovks/buttonclicker/MainActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/control_lesson1/src/main/java/ru/mirea/shutovks/control_lesson1/MainActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/layouttype/src/main/java/ru/mirea/shutovks/layouttype/MainActivity.java" charset="UTF-8" />
+  </component>
+</project>
