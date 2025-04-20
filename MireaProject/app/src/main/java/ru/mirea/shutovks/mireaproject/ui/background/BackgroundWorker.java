@@ -10,8 +10,7 @@ import androidx.work.WorkerParameters;
 public class BackgroundWorker extends Worker {
     private static final String TAG = "BackgroundWorker";
 
-    public BackgroundWorker(@NonNull Context context,
-                            @NonNull WorkerParameters params) {
+    public BackgroundWorker(@NonNull Context context, @NonNull WorkerParameters params) {
         super(context, params);
     }
 

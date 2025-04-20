@@ -39,6 +39,24 @@
             android:id="@+id/nav_background"
             android:name="ru.mirea.shutovks.mireaproject.ui.background.BackgroundFragment"
             android:label="Background Task"
-            tools:layout="@layout/fragment_background" />
+            tools:layout="@layout/fragment_backgroun" />
+
+    <fragment
+            android:id="@+id/nav_camera"
+            android:name="ru.mirea.shutovks.mireaproject.ui.camera.CameraFragment"
+            android:label="Camera"
+            tools:layout="@layout/fragment_camera" />
+
+    <fragment
+            android:id="@+id/nav_compass"
+            android:name="ru.mirea.shutovks.mireaproject.ui.compass.CompassFragment"
+            android:label="Compass"
+            tools:layout="@layout/fragment_compass" />
+
+    <fragment
+            android:id="@+id/nav_microphone"
+            android:name="ru.mirea.shutovks.mireaproject.ui.microphone.MicrophoneFragment"
+            android:label="Microphone"
+            tools:layout="@layout/fragment_microphone" />
 
 </navigation>
