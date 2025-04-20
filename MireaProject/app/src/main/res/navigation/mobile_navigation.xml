@@ -34,4 +34,11 @@
             android:name="ru.mirea.shutovks.mireaproject.ui.browser.WebViewFragment"
             android:label="Веб-браузер"
             tools:layout="@layout/fragment_web_view" />
+
+    <fragment
+            android:id="@+id/nav_background"
+            android:name="ru.mirea.shutovks.mireaproject.ui.background.BackgroundFragment"
+            android:label="Background Task"
+            tools:layout="@layout/fragment_background" />
+
 </navigation>
