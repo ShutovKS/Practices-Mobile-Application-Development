@@ -1,0 +1,46 @@
+﻿<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <Button
+            android:id="@+id/buttonGetWeather"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Получить погоду"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="300dp" />
+
+    <TextView
+            android:id="@+id/textCity"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Город:"
+            app:layout_constraintTop_toBottomOf="@id/buttonGetWeather"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+            android:id="@+id/textRegion"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Регион:"
+            app:layout_constraintTop_toBottomOf="@id/textCity"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+            android:id="@+id/textWeather"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Погода:"
+            app:layout_constraintTop_toBottomOf="@id/textRegion"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

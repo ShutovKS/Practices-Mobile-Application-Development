@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1065079218874",
+    "project_id": "lession7-firebaseauth",
+    "storage_bucket": "lession7-firebaseauth.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1065079218874:android:315730790180e4f8af5883",
+        "android_client_info": {
+          "package_name": "ru.mirea.shutovks.firebaseauth"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4sP4lCENWxUJXcLTVPN5Ryue5lGJJD9w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

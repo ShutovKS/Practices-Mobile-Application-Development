@@ -1,5 +1,6 @@
-﻿plugins {
+plugins {
     alias(libs.plugins.android.application)
+    alias(libs.plugins.google.gms.google.services)
 }
 
 android {
@@ -37,6 +38,8 @@ android {
 
 dependencies {
 
+    implementation(libs.retrofit)
+    implementation(libs.converter.gson)
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.constraintlayout)
@@ -46,6 +49,8 @@ dependencies {
     implementation(libs.navigation.ui)
     implementation(libs.core)
     implementation(libs.work.runtime)
+    implementation(libs.firebase.auth)
+    implementation(libs.activity)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)

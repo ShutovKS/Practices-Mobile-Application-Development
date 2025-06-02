@@ -12,4 +12,4 @@
 
 [Практика 6](./Lesson6/README.md)
 
-[Практика 7](./Lesson7/README.md) (не сделана)
+[Практика 7](./Lesson7/README.md)
